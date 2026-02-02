@@ -1,17 +1,50 @@
-# to_do_app
+# 📝 To-Do App (Flutter)
 
-A new Flutter project.
+A simple and professional **Flutter To-Do application** developed as part of an internship task.  
+The app allows users to create an account, log in, and manage daily tasks using **local SQLite storage**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📌 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🚀 Splash Screen with App Logo  
+- 🔐 Create Account & Login (Local Authentication)  
+- 📝 Add and Delete Tasks  
+- 💾 Tasks stored locally using **SQLite**  
+- 📁 Clean and proper Flutter project structure  
+- 🖼️ Assets folder for images and logo  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"to-do-app" 
+## 🛠️ Technologies Used
+
+- **Flutter (Dart)**
+- **SQLite (sqflite package)**
+- **Material UI**
+
+---
+
+## 📂 Project Structure
+
+lib/
+├── main.dart
+├── screens/
+│ ├── splash_screen.dart
+│ ├── login_screen.dart
+│ ├── signup_screen.dart
+│ └── home_screen.dart
+├── models/
+│ └── task_model.dart
+├── database/
+│ └── db_helper.dart
+assets/
+└── images/
+└── logo.png
+
+
+
+
+
+
+
+
